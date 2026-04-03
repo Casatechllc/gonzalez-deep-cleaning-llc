@@ -31,6 +31,7 @@ const features = [
       <div class="flex flex-col lg:flex-row items-center gap-16">
         
         <div class="w-full lg:w-1/2 space-y-4">
+          <ClientOnly>
           <Motion 
             v-for="(feature, index) in features" 
             :key="feature.title"
@@ -51,9 +52,11 @@ const features = [
               <p class="text-gray-500 font-medium">{{ feature.description }}</p>
             </div>
           </Motion>
+          </ClientOnly>
         </div>
 
         <div class="w-full lg:w-1/2">
+          <ClientOnly>
           <Motion 
             :initial="{ opacity: 0, x: 30 }"
             :while-in-view="{ opacity: 1, x: 0 }"
@@ -82,6 +85,7 @@ const features = [
               Request your free quote today
             </Motion>
           </Motion>
+          </ClientOnly>
         </div>
 
       </div>

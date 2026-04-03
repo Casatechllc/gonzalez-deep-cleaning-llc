@@ -6,7 +6,7 @@ import { Motion } from "motion-v"
   <header class="relative min-h-[85vh] flex items-center overflow-hidden">
     <div class="absolute inset-0 z-0">
       <img 
-        src="https://images.unsplash.com/photo-1581578731548-c64695ce6958?auto=format&fit=crop&q=80&w=1600" 
+        src="/images/pristine-living-room.jpg" 
         class="w-full h-full object-cover brightness-[0.4]" 
         alt="Pristine Living Room"
       />
@@ -33,6 +33,7 @@ import { Motion } from "motion-v"
         </p>
 
         <div class="flex flex-col sm:flex-row items-center gap-6">
+            <ClientOnly>
           <Motion
             as="button"
             class="group relative bg-accent-cta text-white px-10 py-5 rounded-full text-xl font-black shadow-[0_0_20px_rgba(245,158,11,0.4)] hover:shadow-[0_0_30px_rgba(245,158,11,0.6)] transition-all"
@@ -42,6 +43,7 @@ import { Motion } from "motion-v"
             GET A FREE QUOTE
             <span class="inline-block ml-2 group-hover:translate-x-2 transition-transform">→</span>
           </Motion>
+          </ClientOnly>
 
           <div class="hidden lg:block">
             <svg width="60" height="40" viewBox="0 0 60 40" fill="none" class="text-brand-primary animate-bounce-x">

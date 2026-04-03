@@ -6,7 +6,7 @@ import { Motion } from "motion-v"
   <section class="relative bg-neutral-text text-white overflow-hidden">
     <div class="absolute inset-0 z-0 opacity-40">
       <img 
-        src="https://images.unsplash.com/photo-1603712725038-e93ba4abc0f3?auto=format&fit=crop&q=80&w=1600" 
+        src="/images/spotless-livingspace.png" 
         class="w-full h-full object-cover" 
         alt="Spotless, beautifully organized living space in Harrisonburg, VA"
       />
@@ -16,7 +16,6 @@ import { Motion } from "motion-v"
 
     <div class="container mx-auto px-4 py-24 md:py-32 relative z-20">
       <div class="lg:grid lg:grid-cols-12 lg:gap-12 items-center">
-        
         <Motion 
           class="lg:col-span-8 text-center lg:text-left mb-12 lg:mb-0"
           :initial="{ opacity: 0, x: -50 }"
@@ -39,7 +38,7 @@ import { Motion } from "motion-v"
           </p>
           
           <div class="mt-8 flex items-center justify-center lg:justify-start gap-4">
-             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Seal_of_Virginia.svg/200px-Seal_of_Virginia.svg.png" alt="VA State Seal" class="h-12 w-12 opacity-80" />
+             <img src="/images/harrisonburg-va.avif" alt="VA State Seal" class="h-16 w-40 opacity-80" />
              <p class="text-sm font-semibold text-white/80">Locally Owned & Operated in Harrisonburg</p>
           </div>
         </Motion>

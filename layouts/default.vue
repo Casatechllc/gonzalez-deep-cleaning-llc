@@ -1,5 +1,4 @@
 <script setup>
-import { Motion, AnimatePresence } from "motion-v"
 </script>
 
 <template>

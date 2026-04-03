@@ -1,5 +1,4 @@
 <script setup>
-import { Motion } from "motion-v"
 import ServiceRoomDetail from "~/components/services/ServiceRoomDetail.vue"
 </script>
 

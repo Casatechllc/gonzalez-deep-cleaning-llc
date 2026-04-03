@@ -7,7 +7,7 @@ import { Motion } from "motion-v"
     <header class="relative min-h-[60vh] flex items-center overflow-hidden">
       <div class="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1603712725038-e93ba4abc0f3?auto=format&fit=crop&q=80&w=1600" 
+          src="/images/clean-kitchen.jpg" 
           class="w-full h-full object-cover brightness-[0.5]" 
           alt="Spotless home interior in the Shenandoah Valley"
         />
@@ -17,7 +17,7 @@ import { Motion } from "motion-v"
       <div class="container mx-auto px-4 relative z-10">
         <div class="max-w-3xl">
           <div class="flex items-center gap-2 mb-6 bg-white/10 backdrop-blur-md w-fit px-4 py-2 rounded-full border border-white/20">
-             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Seal_of_Virginia.svg/200px-Seal_of_Virginia.svg.png" alt="VA State Seal" class="h-6 w-6 opacity-80" />
+             <img src="/images/harrisonburg-va.avif" alt="VA State Seal" class="h-6 w-16 opacity-80" />
             <span class="text-white text-sm font-bold uppercase tracking-widest">Locally Owned in Harrisonburg</span>
           </div>
 
@@ -36,7 +36,6 @@ import { Motion } from "motion-v"
 
     <section class="py-24 bg-brand-primary text-white">
       <div class="container mx-auto px-4 lg:grid lg:grid-cols-12 gap-16 items-start">
-        
         <Motion 
           class="lg:col-span-6 mb-16 lg:mb-0"
           :initial="{ opacity: 0, x: -50 }"
@@ -91,7 +90,6 @@ import { Motion } from "motion-v"
         >
           <ContactForm />
         </Motion>
-
       </div>
     </section>
 

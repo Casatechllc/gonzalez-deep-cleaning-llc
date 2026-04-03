@@ -16,7 +16,7 @@
       </ul>
     </div>
     <div class="aspect-square bg-white rounded-[40px] overflow-hidden shadow-xl border border-neutral-text/5 relative">
-        <img src="https://images.unsplash.com/photo-1581578731548-c64695ce6958?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover" alt="Grout scrubbed bathroom" />
+        <img src="/images/clean-bathroom.avif" class="w-full h-full object-cover" alt="Grout scrubbed bathroom" />
         <div class="absolute bottom-6 left-6 bg-brand-primary p-5 rounded-2xl text-white shadow-xl">
              <p class="text-xs uppercase font-bold tracking-widest opacity-80">Checklist</p>
              <p class="text-2xl font-black">Sterile Finish</p>

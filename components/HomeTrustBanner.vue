@@ -16,7 +16,6 @@ import { Motion } from "motion-v"
 
     <div class="container mx-auto px-4 relative z-10">
       <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
-        
         <Motion 
           class="w-full lg:w-1/3 flex justify-center lg:justify-end"
           :initial="{ opacity: 0, scale: 0.8 }"

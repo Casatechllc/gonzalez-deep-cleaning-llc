@@ -94,7 +94,6 @@ const toggleFaq = (index) => {
           </AnimatePresence>
         </div>
       </div>
-
       <Motion 
         class="mt-20 bg-brand-dark rounded-[40px] p-8 md:p-12 text-center text-white relative overflow-hidden shadow-2xl"
         :initial="{ opacity: 0, scale: 0.95 }"

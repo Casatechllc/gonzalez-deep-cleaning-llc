@@ -6,7 +6,6 @@ import { Motion } from "motion-v"
   <div class="bg-neutral-background">
     <section class="py-20 lg:py-32">
       <div class="container mx-auto px-4 lg:grid lg:grid-cols-12 gap-16 items-center">
-        
         <Motion 
           class="lg:col-span-5 mb-12 lg:mb-0 relative"
           :initial="{ opacity: 0, x: -30 }"
@@ -15,7 +14,7 @@ import { Motion } from "motion-v"
         >
           <div class="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border-8 border-white rotate-2 hover:rotate-0 transition-transform duration-500">
             <img 
-              src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=800" 
+              src="/images/kitchen-cooking.avif" 
               alt="Gladys, Founder of Gonzalez Deep Cleaning LLC"
               class="w-full h-full object-cover"
             />

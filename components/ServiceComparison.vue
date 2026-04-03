@@ -4,21 +4,21 @@ const packages = [
     name: 'Routine Care',
     tagline: 'The Subscription for Peace',
     desc: 'Best for busy Harrisonburg families who want a clean home every single week without lifting a finger.',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=600',
+    image: '/images/clean-bathroom.avif',
     accent: 'bg-brand-primary'
   },
   {
     name: 'Deep Cleaning',
     tagline: 'The Total Reset',
     desc: 'Our signature "Work of Art" clean. We go behind, under, and inside to remove months of hidden dust.',
-    image: 'https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&q=80&w=600',
+    image: '/images/carpet-cleaning.avif',
     accent: 'bg-accent-cta'
   },
   {
     name: 'Host-Ready',
     tagline: 'The Focal Refresh',
     desc: 'Designed for the "Friendly City" hosts. We focus on high-traffic areas so your guests only see the shine.',
-    image: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=600',
+    image: '/images/cleaner-glove.avif',
     accent: 'bg-neutral-text'
   }
 ]
@@ -26,6 +26,7 @@ const packages = [
 
 <template>
   <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <ClientOnly>
     <Motion 
       v-for="(pkg, idx) in packages" 
       :key="pkg.name"
@@ -48,5 +49,6 @@ const packages = [
         </NuxtLink>
       </div>
     </Motion>
+    </ClientOnly>
   </div>
 </template>

@@ -2,7 +2,7 @@
   <header class="relative h-[60vh] flex items-center overflow-hidden">
     <div class="absolute inset-0 z-0">
       <img 
-        src="https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?auto=format&fit=crop&q=80&w=1600" 
+        src="/images/cleaning-products.avif" 
         class="w-full h-full object-cover brightness-[0.4]" 
         alt="Clean home aesthetic"
       />
@@ -10,6 +10,7 @@
     </div>
 
     <div class="container mx-auto px-4 relative z-10 text-center">
+        <ClientOnly>
       <Motion 
         :initial="{ opacity: 0, y: 30 }"
         :animate="{ opacity: 1, y: 0 }"
@@ -21,6 +22,7 @@
           Meticulous. Consistent. Locally Owned in VA.
         </p>
       </Motion>
+      </ClientOnly>
     </div>
   </header>
 </template>

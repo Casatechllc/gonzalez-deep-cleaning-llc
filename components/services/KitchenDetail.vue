@@ -16,7 +16,7 @@
       </ul>
     </div>
     <div class="aspect-square bg-white rounded-[40px] overflow-hidden shadow-xl border border-neutral-text/5 relative">
-        <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover" alt="Clean kitchen details" />
+        <img src="/images/kitchen-cooking.avif" class="w-full h-full object-cover" alt="Clean kitchen details" />
         <div class="absolute bottom-6 left-6 bg-brand-primary p-5 rounded-2xl text-white shadow-xl">
              <p class="text-xs uppercase font-bold tracking-widest opacity-80">Checklist</p>
              <p class="text-2xl font-black">Food-Safe</p>

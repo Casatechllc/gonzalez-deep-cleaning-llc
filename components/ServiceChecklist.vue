@@ -20,7 +20,7 @@
             </div>
           </div>
           <div class="relative">
-            <img src="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&q=80&w=800" 
+            <img src="/images/firepit-living-space.avif" 
                  class="rounded-[40px] shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500" />
             <div class="absolute -bottom-6 -left-6 bg-accent-cta p-8 rounded-3xl text-white shadow-xl">
                <p class="text-4xl font-black">50+</p>

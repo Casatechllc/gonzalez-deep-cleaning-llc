@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import HomeDeepCleanMatrix from '~/components/HomeDeepCleanMatrix.vue';
-import Contact from './contact.vue';
 
 </script>
 
@@ -25,7 +24,7 @@ import Contact from './contact.vue';
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div class="group relative h-[450px] overflow-hidden rounded-3xl cursor-pointer">
-            <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=600" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+            <img src="/images/clean-bathroom.avif" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
             <div class="absolute bottom-0 p-8">
               <h3 class="text-2xl font-bold text-white mb-2">Deep Cleaning</h3>
@@ -35,7 +34,7 @@ import Contact from './contact.vue';
           </div>
 
           <div class="group relative h-[450px] overflow-hidden rounded-3xl cursor-pointer">
-            <img src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&q=80&w=600" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+            <img src="/images/carpet-cleaning.avif" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
             <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/80 via-transparent to-transparent"></div>
             <div class="absolute bottom-0 p-8">
               <h3 class="text-2xl font-bold text-white mb-2">Routine Care</h3>
@@ -45,7 +44,7 @@ import Contact from './contact.vue';
           </div>
 
           <div class="group relative h-[450px] overflow-hidden rounded-3xl cursor-pointer">
-            <img src="https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=600" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+            <img src="/images/cleaner-glove.avif" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
             <div class="absolute bottom-0 p-8">
               <h3 class="text-2xl font-bold text-white mb-2">Host-Ready</h3>
@@ -61,7 +60,7 @@ import Contact from './contact.vue';
       <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-16">
         <div class="lg:w-1/2">
           <div class="relative">
-            <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=800" class="rounded-3xl shadow-2xl relative z-10" />
+            <img src="/images/kitchen-cooking.avif" class="rounded-3xl shadow-2xl relative z-10" />
             <div class="absolute -top-10 -left-10 w-40 h-40 bg-brand-light rounded-full z-0 animate-pulse"></div>
             <div class="absolute -right-8 top-1/2 hidden lg:block z-20">
                <svg width="100" height="50" viewBox="0 0 100 50" fill="none" class="text-accent-cta transform -rotate-12">
@@ -96,6 +95,5 @@ import Contact from './contact.vue';
     <HomeFinalCTA />
 
     <HomeContactSection />
-
   </div>
 </template>

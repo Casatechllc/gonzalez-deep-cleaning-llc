@@ -50,6 +50,7 @@ const services = [
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
+        <ClientOnly>
         <Motion 
           v-for="(service, index) in services" 
           :key="service.title"
@@ -72,6 +73,7 @@ const services = [
             {{ service.description }}
           </p>
         </Motion>
+        </ClientOnly>
       </div>
 
     </div>

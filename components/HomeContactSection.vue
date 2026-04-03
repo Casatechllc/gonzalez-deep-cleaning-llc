@@ -16,7 +16,7 @@ import { Motion } from "motion-v"
           No pressure. Just helpful guidance from a Harrisonburg neighbor who cares.
         </p>
       </div>
-
+      <ClientOnly>
       <Motion 
         class="max-w-4xl mx-auto bg-white p-8 md:p-12 rounded-[40px] shadow-[0_20px_50px_rgba(5,150,105,0.1)] border border-emerald-100"
         :initial="{ opacity: 0, y: 30 }"
@@ -74,6 +74,7 @@ import { Motion } from "motion-v"
           **We are not accepting job applications at the moment
         </p>
       </Motion>
+      </ClientOnly>
 
     </div>
   </section>
