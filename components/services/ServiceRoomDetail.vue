@@ -57,9 +57,8 @@ const currentComponent = computed(() => {
         </nav>
 
         <div class="lg:w-3/4 bg-neutral-background p-8 md:p-12 rounded-[40px] shadow-inner shadow-neutral-text/5">
-          
+          <ClientOnly>
             <AnimatePresence mode="wait">
-                <ClientOnly>
             <Motion 
               :key="currentRoom"
               :initial="{ opacity: 0, y: 15 }"
@@ -69,8 +68,8 @@ const currentComponent = computed(() => {
             >
               <component :is="currentComponent" />
             </Motion>
-            </ClientOnly>
           </AnimatePresence>
+          </ClientOnly>
           
         </div>
 

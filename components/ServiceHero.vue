@@ -1,3 +1,6 @@
+<script setup>
+import { Motion } from "motion-v"
+</script>
 <template>
   <header class="relative h-[60vh] flex items-center overflow-hidden">
     <div class="absolute inset-0 z-0">
