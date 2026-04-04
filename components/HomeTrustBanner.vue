@@ -24,7 +24,7 @@ import { Motion } from "motion-v"
         >
           <div class="relative bg-white/20 p-4 rounded-[60px]">
              <img 
-               src="https://images.unsplash.com/photo-1581578731548-c64695ce6958?auto=format&fit=crop&q=80&w=600" 
+               src="/images/trusted.png" 
                alt="Gladys with cleaning supplies"
                class="w-72 h-80 lg:w-80 lg:h-96 object-cover rounded-[50px] shadow-2xl"
              />

@@ -51,11 +51,13 @@ import { Motion } from "motion-v"
           :transition="{ delay: 0.3 }"
         >
           <Motion
-            as="button"
+            <--as="button"
+            as = "a"
+            href = "tel:5405601273"
             class="group relative bg-accent-cta text-white px-12 py-7 rounded-full text-2xl font-black shadow-[0_0_30px_rgba(245,158,11,0.5)] hover:shadow-[0_0_50px_rgba(245,158,11,0.7)] hover:bg-accent-hover transition-all"
             :while-hover="{ scale: 1.05 }"
             :while-press="{ scale: 0.95 }"
-            @click="$router.push('/contact')"
+            <--@click="$router.push('/contact')"
           >
             REQUEST QUOTE NOW
             <span class="inline-block ml-3 group-hover:translate-x-3 transition-transform">→</span>

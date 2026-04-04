@@ -16,6 +16,18 @@ import { Motion } from "motion-v"
           No pressure. Just helpful guidance from a Harrisonburg neighbor who cares.
         </p>
       </div>
+
+      <Motion
+            as="a"
+            class="w-full bg-accent-cta text-white py-6 rounded-full text-xl font-black shadow-lg hover:bg-accent-hover transition-all flex items-center justify-center gap-3"
+            :while-hover="{ scale: 1.02 }"
+            :while-press="{ scale: 0.98 }"
+            href = "tel:5405601273"
+          >
+            REQUEST A QUOTE NOW
+            <span class="text-2xl">→</span>
+        </Motion>
+          <!--
       <ClientOnly>
       <Motion 
         class="max-w-4xl mx-auto bg-white p-8 md:p-12 rounded-[40px] shadow-[0_20px_50px_rgba(5,150,105,0.1)] border border-emerald-100"
@@ -75,6 +87,7 @@ import { Motion } from "motion-v"
         </p>
       </Motion>
       </ClientOnly>
+    -->
 
     </div>
   </section>

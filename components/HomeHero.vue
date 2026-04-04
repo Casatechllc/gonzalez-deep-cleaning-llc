@@ -35,10 +35,12 @@ import { Motion } from "motion-v"
         <div class="flex flex-col sm:flex-row items-center gap-6">
             <ClientOnly>
           <Motion
-            as="button"
+            <--as="button"
+            as = "a"
+            href = "tel:5405601273"
             class="group relative bg-accent-cta text-white px-10 py-5 rounded-full text-xl font-black shadow-[0_0_20px_rgba(245,158,11,0.4)] hover:shadow-[0_0_30px_rgba(245,158,11,0.6)] transition-all"
             :while-hover="{ scale: 1.05 }"
-            @click="$router.push('/contact')"
+            <--@click="$router.push('/contact')"
           >
             GET A FREE QUOTE
             <span class="inline-block ml-2 group-hover:translate-x-2 transition-transform">→</span>

@@ -45,9 +45,9 @@ const packages = [
       <div class="p-10">
         <h3 class="text-3xl font-black text-neutral-text mb-4">{{ pkg.name }}</h3>
         <p class="text-neutral-text/70 mb-8 font-medium leading-relaxed">{{ pkg.desc }}</p>
-        <NuxtLink to="/contact" class="inline-flex items-center gap-2 font-black text-brand-primary group-hover:text-accent-cta transition-colors">
+        <a href="tel:5405601273" class="inline-flex items-center gap-2 font-black text-brand-primary group-hover:text-accent-cta transition-colors">
           REQUEST THIS PACKAGE <span>→</span>
-        </NuxtLink>
+        </a>
       </div>
     </Motion>
     </ClientOnly>

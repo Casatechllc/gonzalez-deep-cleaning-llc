@@ -76,11 +76,13 @@ const features = [
             </p>
 
             <Motion
-              as="button"
+              <--as="button"
+              as = "a"
+              href = "tel:5405601273"
               class="relative bg-accent-cta text-white px-10 py-5 rounded-full text-xl font-black shadow-xl hover:bg-accent-hover focus:ring-4 focus:ring-accent-cta/30"
               :while-hover="{ scale: 1.05 }"
               :while-press="{ scale: 0.95 }"
-              @click="$router.push('/contact')"
+              <--@click="$router.push('/contact')"
             >
               Request your free quote today
             </Motion>

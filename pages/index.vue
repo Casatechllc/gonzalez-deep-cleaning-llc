@@ -9,6 +9,7 @@ import HomeDeepCleanMatrix from '~/components/HomeDeepCleanMatrix.vue';
     <HomeTrustBanner />
 
     <section class="py-24 bg-white">
+        
       <div class="container mx-auto px-4">
         <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
           <div class="max-w-2xl">
@@ -22,7 +23,9 @@ import HomeDeepCleanMatrix from '~/components/HomeDeepCleanMatrix.vue';
           </div>
         </div>
 
+        
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <NuxtLink to="/services">
           <div class="group relative h-[450px] overflow-hidden rounded-3xl cursor-pointer">
             <img src="/images/clean-bathroom.avif" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -32,7 +35,9 @@ import HomeDeepCleanMatrix from '~/components/HomeDeepCleanMatrix.vue';
               <div class="w-12 h-12 bg-accent-cta rounded-full flex items-center justify-center text-white">→</div>
             </div>
           </div>
+          </NuxtLink>
 
+          <NuxtLink to="/services">
           <div class="group relative h-[450px] overflow-hidden rounded-3xl cursor-pointer">
             <img src="/images/carpet-cleaning.avif" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
             <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/80 via-transparent to-transparent"></div>
@@ -42,7 +47,9 @@ import HomeDeepCleanMatrix from '~/components/HomeDeepCleanMatrix.vue';
               <div class="w-12 h-12 bg-brand-primary rounded-full flex items-center justify-center text-white">→</div>
             </div>
           </div>
+          </NuxtLink>
 
+          <NuxtLink to="/services">
           <div class="group relative h-[450px] overflow-hidden rounded-3xl cursor-pointer">
             <img src="/images/cleaner-glove.avif" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
@@ -52,8 +59,10 @@ import HomeDeepCleanMatrix from '~/components/HomeDeepCleanMatrix.vue';
               <div class="w-12 h-12 bg-white text-brand-primary rounded-full flex items-center justify-center">→</div>
             </div>
           </div>
+          </NuxtLink>
         </div>
       </div>
+      
     </section>
 
     <section class="py-20 bg-neutral-background">

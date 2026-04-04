@@ -106,10 +106,10 @@ const toggleFaq = (index) => {
             Gladys is happy to help. Send us a message or a text today!
           </p>
           <div class="flex flex-col sm:flex-row justify-center gap-4">
-            <NuxtLink to="/contact" class="bg-accent-cta text-white px-10 py-4 rounded-full font-black text-lg hover:bg-accent-hover transition-all shadow-lg shadow-accent-cta/20">
+            <a href="tel:5405601273" class="bg-accent-cta text-white px-10 py-4 rounded-full font-black text-lg hover:bg-accent-hover transition-all shadow-lg shadow-accent-cta/20">
               Contact Gladys →
-            </NuxtLink>
-            <a href="tel:540XXXXXXX" class="bg-white/10 text-white border border-white/20 px-10 py-4 rounded-full font-black text-lg hover:bg-white/20 transition-all backdrop-blur-sm">
+            </a>
+            <a href="tel:5405601273" class="bg-white/10 text-white border border-white/20 px-10 py-4 rounded-full font-black text-lg hover:bg-white/20 transition-all backdrop-blur-sm">
               Call/Text Now
             </a>
           </div>
