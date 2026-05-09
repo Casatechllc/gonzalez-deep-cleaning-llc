@@ -48,7 +48,6 @@ const toggleMenu = () => {
               class="ml-4 rounded-full bg-accent-cta px-6 py-2.5 text-sm font-bold text-white shadow-md hover:bg-accent-hover focus:ring-4 focus:ring-accent-cta/20 transition-colors"
               :while-hover="{ scale: 1.05 }"
               :while-press="{ scale: 0.95 }"
-              <--@click="$router.push('/contact')"
               href = "tel:5405601273"
             >
               Get a Quote
@@ -92,7 +91,6 @@ const toggleMenu = () => {
               </NuxtLink>
               <a 
                 href = "tel:5405601273"
-                <--@click="$router.push('/contact');isMenuOpen=false"
                 class="flex items-center justify-center w-full rounded-xl bg-accent-cta py-4 font-black text-white shadow-md hover:bg-accent-hover transition-colors uppercase tracking-widest text-sm"
               >
                 Get a Quote
